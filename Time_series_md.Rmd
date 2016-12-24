@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(kml)
 data("epipageShort", package = "kml")
 head(epipageShort)
-
+# hi
 
 imputation(as.matrix(epipageShort[, 3:6]))
 imputation(as.matrix(epipageShort[, 3:6]), method = "linearInterpol")
